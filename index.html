@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!-- Home  -->
+    <div class="home"> <!--checking-->
+        <h2 class="welcome-note">Welcome to</h2>
+        <h1 style="font-size: 5rem; margin-left: 2rem; color: rgb(146, 255, 192);">JBees</h1>
+        <button class="login">Login</button>
+        <button class="signup">Signup</button>
+    </div>
+    <!-- Login Page -->
+    <div class="login-page hidden">
+        <div class="login-area">
+            <div class="login-text">User Name</div>
+            <input type="text" class="login-userName">
+            <div class="login-text">Password</div>
+            <input type="text" class="login-password">
+            <button class="btn-login">Login</button>
+        </div>
+        <button class="login-back"><i class="fa-solid fa-arrow-left"></i>Back</button>
+    </div>
+    <!-- Signup Page -->
+    <div class="signup-page hidden">
+        <div class="signup-area">
+            <div class="signup-text">User Name</div>
+            <input type="text" class="signup-userName">
+            <div class="signup-text">Password</div>
+            <input type="text" class="signup-password">
+            <div class="signup-text">Profession</div>
+            <input type="text">
+            <button class="btn-signup">Signup</button>
+        </div>
+        <button class="signup-back"><i class="fa-solid fa-arrow-left"></i>Back</button>
+    </div>
+    <!-- Personal Account  -->
+    <div class="friends-page hidden">
+
+        <div class="information">
+            <div class="app-details">
+                <div id="head">
+                    <div id="app-name">
+                        JBees
+                    </div>
+                    <div class="btn-menu">
+                        <!-- <i class="fa-solid fa-ellipsis-vertical btn-menu"></i> -->
+                    </div>
+                    <ul class="menu-drop hidden">
+                        <li id="new-member-btn">New Member</li>       
+                        <li>Starred Message</li>
+                        <li>New Group</li>
+                        <li>Settings</li>
+                        <li id="user-logout">LogOut</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="new-member-dialogue hidden">
+                
+                <div class="new-member">
+                    <button class="friend-cancel"><i class="fa-solid fa-arrow-left"></i>Back</button>
+                    <div class="new-friend-user">User Name</div>
+                    <input type="text" class="friend-userName">
+                    <button class="btn-friend-add">Add Friend</button>
+                </div>
+            </div>
+            <div class="member-area">
+                <!-- <div class="person-info" id="Stacey">
+                    <img src="img/Stacey.jpg" alt="" class="person-img">
+                    <div class="person-name">lisa</div>
+                    <div class="person-time">19:44</div>
+                    <div class="person-msg">Hey</div>
+                </div> -->
+            </div>
+        </div>
+        
+    </div>
+    <!-- Chat Section  -->
+    <div class="chat-area hidden">
+
+        <div class="chat-view">
+            <div class="delete-dialogue-box hidden">
+                <!-- <div class="delete-own-box">
+                    <div class="dlt-msg">Delete message?</div>
+                    <button class="dlt-for-everyone-btn dlt-btn">Delete for everyone</button>
+                    <button class="dlt-for-me-btn dlt-btn">Delete for me</button>
+                    <button class="dlt-cancel dlt-btn">Cancel</button>
+                </div> -->
+                <!-- <div class="delete-other-box">
+                    <div class="dlt-msg">Delete message?</div>
+                    <button class="dlt-for-me-btn dlt-btn">Delete for me</button>
+                    <button class="dlt-cancel dlt-btn">Cancel</button>
+                </div> -->
+            </div>
+            <div class="chat-fr-info"> 
+                <div class="chat-area-head">
+                    <div class="back">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <img src="img/2.jpg" alt="" class="person-img">
+                    <div class="person-name">Lisa</div>
+                </div>
+            </div>
+            <div class="msg-area">
+                <div class="msg msg-left">Aluu kheyechis?<div class="msg-time">12:34</div></div>
+            
+            </div>
+            <div class="test">
+                <div class="test-text">
+                    <textarea name="" class="test-textarea" cols="27" rows="1"></textarea>
+                    <button class="test-submit"><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
